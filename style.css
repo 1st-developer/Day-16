@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    transition: background-color 0.5s, color 0.5s;
+  }
+
+  header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    background: #000;
+  }
+
+  .logo {
+    font-size: 2rem;
+    color: #fff;
+  }
+
+  .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .links a {
+    font-size: 1.1rem;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .night-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  button {
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  h2 {
+    font-size: 4rem;
+  }
+
+  p {
+    color: #4c4c4c;
+    font-size: 1rem;
+  }
+
+  .btn button {
+    width: 150px;
+    height: 50px;
+    background: #000;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 1.1rem;
+    border-radius: 6px;
+  }
+
+  .main {
+    display: grid;
+    gap: 10px;
+  }
+
+  @media (max-width: 1000px) {
+    h2 {
+      font-size: 3rem;
+    }
+    p {
+      font-size: 0.9rem;
+    }
+  }
+  @media (max-width: 600px) {
+    h2 {
+      font-size: 2.3rem;
+    }
+    p {
+      font-size: 0.7rem;
+    }
+  }
+
