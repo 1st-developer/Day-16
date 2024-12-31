@@ -5,6 +5,10 @@
     font-family: Arial, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     position: relative;
     width: 100%;
